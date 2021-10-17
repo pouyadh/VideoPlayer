@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css?v=153" />
+
+    <title>URL Streaming</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="video-container">
+        <div id="discription">
+          <h1>Video Streamer</h1>
+          <p>
+            Watch your favorate movie or any video content you like without
+            waiting for it to be downloaded!
+          </p>
+        </div>
+        <div id="input-container">
+          <input
+            type="text"
+            name="urlInput"
+            id="url-input"
+            placeholder="Copy and paste the url of the video here"
+          />
+          <button id="btn-watch">Watch!</button>
+        </div>
+        <video id="myVideo" controls>
+          <source
+            src="http://dl2.film2serial.ir/film2serial/film/asli/00/7/Rain.2020.Farsi.Subbed-480.mkv"
+          />
+        </video>
+      </div>
+    </div>
+
+    <script src="./script.js?v=160"></script>
+  </body>
+</html>

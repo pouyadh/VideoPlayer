@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  background: url("./img/endless-constellation.svg");
+}
+video {
+  /* border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 8px #888888; */
+  height: 60vh;
+}
+
+#container {
+  width: 80%;
+}
+
+#input-container * {
+  margin: 0;
+  height: 30px;
+  font-size: 1.2rem;
+}
+
+#input-container {
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 10px;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#input-container input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  flex: 1;
+}
+
+#input-container input:focus {
+  outline: none;
+}
+
+#input-container input::placeholder {
+  color: #bbb;
+  padding-left: 1rem;
+}
+
+#input-container button {
+  color: white;
+  background-color: rgba(38, 158, 8, 0.9);
+  border: none;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+#input-container button:hover {
+  background-color: rgba(24, 116, 1, 0.9);
+}
+
+#input-container button:active {
+  background-color: rgba(17, 87, 0, 0.9);
+}
+
+#discription {
+  border-radius: 5px;
+  padding: 1px;
+  width: 100%;
+}
+
+#video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
