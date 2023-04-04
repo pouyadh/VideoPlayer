@@ -1,8 +1,13 @@
 var btnWatch = document.getElementById("btn-watch");
+var btnY = document.getElementById("btn-y");
 var urlInput = document.getElementById("url-input");
 btnWatch.addEventListener("click", function () {
   changeSource(urlInput.value);
   urlInput.value = "";
+});
+btnY.addEventListener("click", function () {
+  urlInput.value =
+    "http://dl6.mvbznet.link/Double/Yasak-Elma/Sib-Mamnooe-E052-Double-540p[MovieBaz].mkv";
 });
 
 // JavaScript Code
