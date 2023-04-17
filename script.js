@@ -1,8 +1,14 @@
 var btnWatch = document.getElementById("btn-watch");
 var btnY = document.getElementById("btn-y");
 var urlInput = document.getElementById("url-input");
+var recentLink = document.getElementById("recent-link");
+
+recentLink.innerHTML = localStorage.getItem("recent-link");
+
 btnWatch.addEventListener("click", function () {
   changeSource(urlInput.value);
+  recentLink.innerHTML = urlInput.value;
+  localStorage.setItem("recent-link", urlInput.value);
   urlInput.value = "";
 });
 btnY.addEventListener("click", function () {
